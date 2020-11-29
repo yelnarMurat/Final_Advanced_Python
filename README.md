@@ -25,3 +25,7 @@ Then after cleaning and transformating our dataset using data visualization modu
 For example, here is the barplot to show the difference between these 2 stores for the same laptop model.
 
 ![alt text](https://github.com/yelnarMurat/Final_Advanced_Python/blob/main/plot2.png?raw=true)
+
+By parsing three electronics websites we have constructed a dataset, which was analysed by using Python libraries(NumPy, Pandas, Seaborn) and provided us with necessary information. 
+
+The work on this project made it possible for the participants, with quite different backgrounds to gain useful knowledge of scraping data from websites and analysing it with the help of Python. We have learned how to work with various data formats, especially in this project we have worked with textual data. Also, the work required learning of using libraries for analysing/visualization of the given data. 
