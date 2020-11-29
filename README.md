@@ -5,11 +5,14 @@ We used three different web-sites:
 * www.sulpak.kz
 * www.alser.kz
 * www.alpha.kz
+
 And collected data from different categories(TVs, Smartphones, Laptops, Tablets).
 During the project we used the following libraries:
-* import requests
-* from bs4 import BeautifulSoup
-* import csv
-* import pandas as pd
-* import numpy as np
-* import seaborn as sns
+'''
+import requests
+from bs4 import BeautifulSoup
+import csv
+import pandas as pd
+import numpy as np
+import seaborn as sns
+'''
