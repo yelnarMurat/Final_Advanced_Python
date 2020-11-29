@@ -20,9 +20,9 @@ Before starting analyze our dataset, we stored all our data in CSV file. For ins
 ![alt text](https://github.com/yelnarMurat/Final_Advanced_Python/blob/main/csv.png?raw=true)
 
 Then after cleaning and transformating our dataset using data visualization modules made such kind of plots. Than can show difference between our web-sites.
-![alt text](https://github.com/yelnarMurat/Final_Advanced_Python/blob/main/plot1.png?raw=true)
+![alt text](https://github.com/yelnarMurat/Final_Advanced_Python/blob/main/plot1.png?raw=true | width=100)
 
 For example, here is the barplot to show the difference between these 2 stores for the same laptop model.
 
-![alt text](https://github.com/yelnarMurat/Final_Advanced_Python/blob/main/plot2.png?raw=true)
+![alt text](https://github.com/yelnarMurat/Final_Advanced_Python/blob/main/plot2.png?raw=true | width=100)
 
