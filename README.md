@@ -8,7 +8,7 @@ We used three different web-sites:
 
 And collected data from different categories(TVs, Smartphones, Laptops, Tablets).
 During the project we used the following libraries:
-'''
+'''python
 import requests
 from bs4 import BeautifulSoup
 import csv
