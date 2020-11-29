@@ -1,3 +1,5 @@
+# importing necessary libiries 
+
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -11,11 +13,11 @@ HEADERS = {
 }
 
 
-def get_html(url):
+def get_html(url): #function for getting html page
     r = requests.get(url)
     return r
 
-def write_csv(data):
+def write_csv(data): # function for save data in csv file
     with open('Sulpak_Tablets.csv', 'a', encoding='utf8') as f:
         writer = csv.writer(f)
         writer.writerow((data['title'],
@@ -32,7 +34,7 @@ def write_csv(data):
                          ))
 
 
-def get_content(html):
+def get_content(html):                                 #function for getting content of the webpage
     soup = BeautifulSoup(html, 'html.parser')
     items = soup.find_all('div', class_='tile-container')
 
@@ -100,14 +102,14 @@ def get_content(html):
             'main_camera': main_camera,
             'front_camera': front_camera
         }
-        write_csv(phones)
+        write_csv(phones) # call function to write daata into CSV file
 
 if __name__=='__main__':
     page_part = '?page='
 
     total_pages = 6
 
-    for i in range(1, total_pages):
+    for i in range(1, total_pages):  # loop all pages of the site
         print(i)
         url_gen = URL + page_part + str(i)
         print(url_gen)
