@@ -24,5 +24,4 @@ Then after cleaning and transformating our dataset using data visualization modu
 
 For example, here is the barplot to show the difference between these 2 stores for the same laptop model.
 
-![alt text](https://github.com/yelnarMurat/Final_Advanced_Python/blob/main/plot2.png?raw=true){:height="24px" width="48px"}
-
+![alt text](https://github.com/yelnarMurat/Final_Advanced_Python/blob/main/plot2.png?raw=true)
