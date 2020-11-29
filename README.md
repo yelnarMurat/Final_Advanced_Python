@@ -16,3 +16,5 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 ```
+Before starting analyze our dataset, we stored all our data in CSV file. For instance:
+![alt text](https://github.com/yelnarMurat/Final_Advanced_Python/blob/main/csv.png?raw=true)
